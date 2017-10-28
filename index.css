@@ -1,0 +1,77 @@
+button {
+     position: relative;
+  padding: 20px 35px;
+  font-size: 30px;
+  font-family: 'Freckle Face', cursive;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FF8000;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px #999;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+button:hover {background-color: #CC2EFA}
+
+button:active {
+  background-color: #088A85;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+button:after {
+    content: "";
+    background: #04B404;
+    display: block;
+    position: absolute;
+    padding-top: 1000%;
+    padding-left: 400%;
+    margin-left: -50px;
+    margin-top: -30%;
+    opacity: 0;
+    transition: all 0.8s
+}
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+#some{
+    color:#8A0829;
+    text-align: left;
+}
+
+
+#body{
+    color:#58F785;
+    float: left;
+}
+
+#some1{
+    color:#8A0829;
+    text-align: right;
+}
+
+#body1{
+    
+    float:right;
+}
+#top-page{
+    font-family: 'Freckle Face', cursive;
+    color:#5CF758;
+    text-align: center;
+    font-size: 50px;
+}
+#linky{
+    font-family: 'Freckle Face', cursive;
+    font-size: 30px;
+}
+#linky:hover {background-color: #D4F758;
+    text-shadow: #5AF758;
+}
